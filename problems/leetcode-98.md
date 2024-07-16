@@ -1,6 +1,5 @@
 ---
 date:   2024-07-12
-categories: dynamic_programing
 ---
 
 # Leetcode 98. Validate Binary Search Tree
