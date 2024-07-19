@@ -1,9 +1,13 @@
 
 # Leetcode problems
 
+## Array
+[Leetcode 56. Merge Intervals](./problems/leetcode-56.md)
+
 ## Binary tree
 
-[Leetcode 98. Validate Binary Search Tree](./problems/leetcode-98.md)
+[Leetcode 98. Validate Binary Search Tree](./problems/leetcode-98.md)\
+[Leetcode 236. Lowest Common Ancestor of a Binary Tree](./problems/leetcode-236.md)
 
 ## Binary Search
 [Leetcode 33. Search in Rotated Sorted Array](./problems/leetcode-33.md)
