@@ -23,7 +23,8 @@
 [Leetcode 46. Permutations](./problems/leetcode-46.md)
 
 ## Dynamic programing
-[Leetcode 139. Word Break](./problems/leetcode-139.md)
+[Leetcode 139. Word Break](./problems/leetcode-139.md)\
+[416. Partition Equal Subset Sum](./problems/leetcode-416.md)
 
 ## Quick Slow Pointer
 [Find array duplicate](./others/find-array-duplicate.md)
