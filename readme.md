@@ -4,6 +4,12 @@
 [Leetcode 56. Merge Intervals](./problems/leetcode-56.md)\
 [Leetcode 75. Sort Colors](./problems/leetcode-75.md)
 
+## Matrix
+[Leetcode 54. Spiral Matrix](./problems/leetcode-54.md)
+
+## String
+[8. String to Integer (atoi)](./problems/leetcode-8.md)
+
 ## HashMap
 [Leetcode 981. Time Based Key-Value Store](./problems/leetcode-981.md)
 
