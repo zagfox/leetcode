@@ -22,6 +22,9 @@
 [Leetcode 39. Combination Sum](./problems/leetcode-39.md)\
 [Leetcode 46. Permutations](./problems/leetcode-46.md)
 
+## Dynamic programing
+[Leetcode 139. Word Break](./problems/leetcode-139.md)
+
 ## Quick Slow Pointer
 [Find array duplicate](./others/find-array-duplicate.md)
 
