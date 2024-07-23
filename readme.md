@@ -1,6 +1,8 @@
 # Leetcode problems
 
 ## Array
+[Leetcode 1. Two Sum](./problems/leetcode-1.md)\
+[Leetcode 15. 3Sum](./problems/leetcode-15.md)\
 [Leetcode 56. Merge Intervals](./problems/leetcode-56.md)\
 [Leetcode 75. Sort Colors](./problems/leetcode-75.md)
 
@@ -26,11 +28,12 @@
 
 ## Back tracking
 [Leetcode 39. Combination Sum](./problems/leetcode-39.md)\
-[Leetcode 46. Permutations](./problems/leetcode-46.md)
+[Leetcode 46. Permutations](./problems/leetcode-46.md)\
+[Leetcode 78. Subsets](./problems/leetcode-78.md)
 
 ## Dynamic programing
 [Leetcode 139. Word Break](./problems/leetcode-139.md)\
-[416. Partition Equal Subset Sum](./problems/leetcode-416.md)
+[Leetcode 416. Partition Equal Subset Sum](./problems/leetcode-416.md)
 
 ## Quick Slow Pointer
 [Find array duplicate](./others/find-array-duplicate.md)
