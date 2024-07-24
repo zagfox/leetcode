@@ -6,11 +6,12 @@
 [Leetcode 56. Merge Intervals](./problems/leetcode-56.md)\
 [Leetcode 75. Sort Colors](./problems/leetcode-75.md)
 
+## String
+[Leetcode 5. Longest Palindromic Substring](./problems/leetcode-5.md)\
+[Leetcode 8. String to Integer (atoi)](./problems/leetcode-8.md)
+
 ## Matrix
 [Leetcode 54. Spiral Matrix](./problems/leetcode-54.md)
-
-## String
-[8. String to Integer (atoi)](./problems/leetcode-8.md)
 
 ## HashMap
 [Leetcode 981. Time Based Key-Value Store](./problems/leetcode-981.md)
@@ -20,7 +21,8 @@
 [Leetcode 236. Lowest Common Ancestor of a Binary Tree](./problems/leetcode-236.md)
 
 ## Binary Search
-[Leetcode 33. Search in Rotated Sorted Array](./problems/leetcode-33.md)
+[Leetcode 33. Search in Rotated Sorted Array](./problems/leetcode-33.md)\
+[Leetcode 199. Binary Tree Right Side View](./problems/leetcode-199.md)
 
 ## Matrix DFS / BFS
 [Leetcode 200. Number of Islands](./problems/leetcode-200.md)\
