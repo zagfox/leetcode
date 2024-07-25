@@ -20,13 +20,16 @@
 [Leetcode 98. Validate Binary Search Tree](./problems/leetcode-98.md)\
 [Leetcode 236. Lowest Common Ancestor of a Binary Tree](./problems/leetcode-236.md)
 
-## Binary Search
-[Leetcode 33. Search in Rotated Sorted Array](./problems/leetcode-33.md)\
-[Leetcode 199. Binary Tree Right Side View](./problems/leetcode-199.md)
 
 ## Matrix DFS / BFS
 [Leetcode 200. Number of Islands](./problems/leetcode-200.md)\
 [Leetcode 994. Rotting Oranges](./problems/leetcode-994.md)
+
+# Algorithm
+
+## Recursion
+[Leetcode 105. Construct Binary Tree from Preorder and Inorder Traversal](./problems/leetcode-105.md)\
+[Leetcode 889. Construct Binary Tree from Preorder and Postorder Traversal](./problems/leetcode-889.md)
 
 ## Back tracking
 [Leetcode 39. Combination Sum](./problems/leetcode-39.md)\
@@ -37,6 +40,10 @@
 [Leetcode 62. Unique Paths](./problems/leetcode-62.md)\
 [Leetcode 139. Word Break](./problems/leetcode-139.md)\
 [Leetcode 416. Partition Equal Subset Sum](./problems/leetcode-416.md)
+
+## Binary Search
+[Leetcode 33. Search in Rotated Sorted Array](./problems/leetcode-33.md)\
+[Leetcode 199. Binary Tree Right Side View](./problems/leetcode-199.md)
 
 ## Quick Slow Pointer
 [Find array duplicate](./others/find-array-duplicate.md)
