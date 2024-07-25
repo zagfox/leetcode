@@ -34,6 +34,7 @@
 [Leetcode 78. Subsets](./problems/leetcode-78.md)
 
 ## Dynamic programing
+[Leetcode 62. Unique Paths](./problems/leetcode-62.md)\
 [Leetcode 139. Word Break](./problems/leetcode-139.md)\
 [Leetcode 416. Partition Equal Subset Sum](./problems/leetcode-416.md)
 
