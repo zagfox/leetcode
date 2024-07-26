@@ -22,6 +22,7 @@
 
 
 ## Matrix DFS / BFS
+[Leetcode 79. Word Search](./problems/leetcode-79.md)\
 [Leetcode 200. Number of Islands](./problems/leetcode-200.md)\
 [Leetcode 994. Rotting Oranges](./problems/leetcode-994.md)
 
@@ -32,6 +33,7 @@
 [Leetcode 889. Construct Binary Tree from Preorder and Postorder Traversal](./problems/leetcode-889.md)
 
 ## Back tracking
+[Leetcode 17. Letter Combinations of a Phone Number](./problems/leetcode-17.md)\
 [Leetcode 39. Combination Sum](./problems/leetcode-39.md)\
 [Leetcode 46. Permutations](./problems/leetcode-46.md)\
 [Leetcode 78. Subsets](./problems/leetcode-78.md)
