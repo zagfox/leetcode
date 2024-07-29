@@ -8,14 +8,18 @@
 [Leetcode 438. Find All Anagrams in a String](./problems/leetcode-438.md)
 
 ## String
+[Leetcode 3. Longest Substring Without Repeating Characters](./problems/leetcode-3.md)\
 [Leetcode 5. Longest Palindromic Substring](./problems/leetcode-5.md)\
 [Leetcode 8. String to Integer (atoi)](./problems/leetcode-8.md)
 
 ## HashMap
+[Leetcode 242. Valid Anagram](./problems/leetcode-242.md)\
 [Leetcode 981. Time Based Key-Value Store](./problems/leetcode-981.md)
 
 ## Binary tree
 [Leetcode 98. Validate Binary Search Tree](./problems/leetcode-98.md)\
+[Leetcode 226. Invert Binary Tree](./problems/leetcode-226.md)\
+[Leetcode 230. Kth Smallest Element in a BST](./problems/leetcode-230.md)\
 [Leetcode 236. Lowest Common Ancestor of a Binary Tree](./problems/leetcode-236.md)
 
 ## Matrix
@@ -24,6 +28,7 @@
 ## Matrix DFS / BFS
 [Leetcode 79. Word Search](./problems/leetcode-79.md)\
 [Leetcode 200. Number of Islands](./problems/leetcode-200.md)\
+[Leetcode 733: Flood Fill](./problems/leetcode-733.md)\
 [Leetcode 994. Rotting Oranges](./problems/leetcode-994.md)
 
 ## Graph
@@ -51,7 +56,8 @@
 
 ## Binary Search
 [Leetcode 33. Search in Rotated Sorted Array](./problems/leetcode-33.md)\
-[Leetcode 199. Binary Tree Right Side View](./problems/leetcode-199.md)
+[Leetcode 199. Binary Tree Right Side View](./problems/leetcode-199.md)\
+[Leetcode 704: Binary Search](./problems/leetcode-704.md)
 
 ## Quick Slow Pointer
 [Find array duplicate](./others/find-array-duplicate.md)

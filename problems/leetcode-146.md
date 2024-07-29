@@ -64,3 +64,7 @@ class LRUCache {
 }
 </code>
 </pre>
+
+## Use list to store values
+Use list to store values directly. And have a hashmap from key to list pointer.
+c++ list has splice() function to move an entry to front.
