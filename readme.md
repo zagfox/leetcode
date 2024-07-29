@@ -31,6 +31,9 @@
 
 # Algorithm
 
+## Greedy
+[Leetcode 621. Task Scheduler](./problems/leetcode-621.md)
+
 ## Recursion
 [Leetcode 105. Construct Binary Tree from Preorder and Inorder Traversal](./problems/leetcode-105.md)\
 [Leetcode 889. Construct Binary Tree from Preorder and Postorder Traversal](./problems/leetcode-889.md)
@@ -55,3 +58,9 @@
 
 ## Union Find
 [Leetcode 721. Accounts Merge](./problems/leetcode-721.md)
+
+# Practical utils
+[Leetcode 146. LRU Cache](./problems/leetcode-146.md)
+
+# TODOs
+Ring Buffer
