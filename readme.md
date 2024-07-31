@@ -30,7 +30,8 @@
 [Leetcode 226. Invert Binary Tree](./problems/leetcode-226.md)\
 [Leetcode 230. Kth Smallest Element in a BST](./problems/leetcode-230.md)\
 [Leetcode 236. Lowest Common Ancestor of a Binary Tree](./problems/leetcode-236.md)\
-[Leetcode 314. Binary Tree Vertical Order Traversal](./problems/leetcode-314.md)
+[Leetcode 314. Binary Tree Vertical Order Traversal](./problems/leetcode-314.md)\
+[Leetcode 1110. Delete Nodes And Return Forest](./problems/leetcode-1110.md)
 
 ## Matrix
 [Leetcode 54. Spiral Matrix](./problems/leetcode-54.md)
@@ -42,7 +43,10 @@
 [Leetcode 994. Rotting Oranges](./problems/leetcode-994.md)
 
 ## Graph
-[Leetcode 310. Minimum Height Trees](./problems/leetcode-310.md)
+[Leetcode 310. Minimum Height Trees](./problems/leetcode-310.md)\
+
+## Topology Sort
+[Leetcode 207. Course Schedule](./problems/leetcode-207.md)
 
 
 # Algorithm
@@ -80,7 +84,8 @@
 [Leetcode 721. Accounts Merge](./problems/leetcode-721.md)
 
 # Practical utils
-[Leetcode 146. LRU Cache](./problems/leetcode-146.md)
+[Leetcode 146. LRU Cache](./problems/leetcode-146.md)\
+[Task Scheduler](./others/task-scheduler.md)
 
 # TODOs
 Ring Buffer
