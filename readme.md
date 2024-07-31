@@ -19,6 +19,9 @@
 [Leetcode 242. Valid Anagram](./problems/leetcode-242.md)\
 [Leetcode 981. Time Based Key-Value Store](./problems/leetcode-981.md)
 
+## Heap
+[Leetcode 973. K Closest Points to Origin](./problems/leetcode-973.md)
+
 ## Events handling
 [Covid Infection](./others/covid-infection.md)
 
@@ -41,10 +44,14 @@
 ## Graph
 [Leetcode 310. Minimum Height Trees](./problems/leetcode-310.md)
 
+
 # Algorithm
 
 ## Greedy
 [Leetcode 621. Task Scheduler](./problems/leetcode-621.md)
+
+## Divide and Conquer
+[Leetcode 50. Pow(x, n)](./problems/leetcode-50.md)
 
 ## Recursion
 [Leetcode 105. Construct Binary Tree from Preorder and Inorder Traversal](./problems/leetcode-105.md)\

@@ -1,41 +1,40 @@
 ---
-date:   2024-07-30
+date:   2024-07-31
 ---
 
-# Leetcode 680. Valid Palindrome II
+# Leetcode 50. Pow(x, n)
 
-Given a string s, return true if the s can be palindrome after deleting at most one character from it.
+Implement pow(x, n), which calculates x raised to the power n (i.e., xn).
 
-## Two pointer
-Have two pointer, one at the left, the other at the right. Check if left and right are the same, if not, try to delete one of them to check if it can make a left/right match. This indicates delete quota left. If delete still cannot work, return false.
+## Divide and Conquer
+Transition pow(x, n) to the problem of pow(x, n/2) recursively.
 
-Note that in the case of not match, both left advance, and right advance case needs to be tried.
+Needs to pay attention to the negative case, -3 / 2 = -1.
 
 ## Java Code
 <pre>
 <code>
 class Solution {
-    public boolean valid(String s, int l, int r, int deleteQuota) {
-        if (l >= r) {
-            return true;
+    public double myPow(double x, int n) {
+        if (n == 0) {
+            return 1;
+        } else if (n == 1) {
+            return x;
+        } else if (n == -1) {
+            return 1.0 / x;
         }
-        if (s.charAt(l) == s.charAt(r)) {
-            return valid(s, l+1, r-1, deleteQuota);
+        if (n % 2 == 1) {
+            double tmp = myPow(x, n/2);
+            if (n > 0) {
+                return x * tmp * tmp;
+            } else {
+                // e.g -3 / 2 = -1, mod 1.
+                return 1/x * tmp * tmp;
+            }
+        } else {
+            double tmp = myPow(x, n/2);
+            return tmp * tmp;
         }
-        if (deleteQuota == 0) {
-            return false;
-        }
-        --deleteQuota;
-        if (valid(s, l+1, r, deleteQuota)) {
-                return true;
-        }
-        if (valid(s, l, r-1, deleteQuota)) {
-                return true;
-        }
-        return false;
-    }
-    public boolean validPalindrome(String s) {
-        return valid(s, 0, s.length()-1, 1);
     }
 }
 </code>
