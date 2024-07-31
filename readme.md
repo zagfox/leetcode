@@ -10,17 +10,24 @@
 ## String
 [Leetcode 3. Longest Substring Without Repeating Characters](./problems/leetcode-3.md)\
 [Leetcode 5. Longest Palindromic Substring](./problems/leetcode-5.md)\
-[Leetcode 8. String to Integer (atoi)](./problems/leetcode-8.md)
+[Leetcode 8. String to Integer (atoi)](./problems/leetcode-8.md)\
+[Leetcode 49. Group Anagrams](./problems/leetcode-49.md)\
+[Leetcode 680. Valid Palindrome II](./problems/leetcode-680.md)\
+[Leetcode 1249. Minimum Remove to Make Valid Parentheses](./problems/leetcode-1249.md)
 
 ## HashMap
 [Leetcode 242. Valid Anagram](./problems/leetcode-242.md)\
 [Leetcode 981. Time Based Key-Value Store](./problems/leetcode-981.md)
 
+## Events handling
+[Covid Infection](./others/covid-infection.md)
+
 ## Binary tree
 [Leetcode 98. Validate Binary Search Tree](./problems/leetcode-98.md)\
 [Leetcode 226. Invert Binary Tree](./problems/leetcode-226.md)\
 [Leetcode 230. Kth Smallest Element in a BST](./problems/leetcode-230.md)\
-[Leetcode 236. Lowest Common Ancestor of a Binary Tree](./problems/leetcode-236.md)
+[Leetcode 236. Lowest Common Ancestor of a Binary Tree](./problems/leetcode-236.md)\
+[Leetcode 314. Binary Tree Vertical Order Traversal](./problems/leetcode-314.md)
 
 ## Matrix
 [Leetcode 54. Spiral Matrix](./problems/leetcode-54.md)
@@ -70,3 +77,5 @@
 
 # TODOs
 Ring Buffer
+Directory that can be searched by (prefix + suffix)
+
