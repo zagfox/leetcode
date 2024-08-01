@@ -3,6 +3,7 @@
 ## Array
 [Leetcode 1. Two Sum](./problems/leetcode-1.md)\
 [Leetcode 15. 3Sum](./problems/leetcode-15.md)\
+[Leetcode 42. Trapping Rain Water](./problems/leetcode-42.md)\
 [Leetcode 56. Merge Intervals](./problems/leetcode-56.md)\
 [Leetcode 75. Sort Colors](./problems/leetcode-75.md)\
 [Leetcode 438. Find All Anagrams in a String](./problems/leetcode-438.md)
@@ -12,6 +13,7 @@
 [Leetcode 5. Longest Palindromic Substring](./problems/leetcode-5.md)\
 [Leetcode 8. String to Integer (atoi)](./problems/leetcode-8.md)\
 [Leetcode 49. Group Anagrams](./problems/leetcode-49.md)\
+[Leetcode 165. Compare Version Numbers](./problems/leetcode-165.md)\
 [Leetcode 680. Valid Palindrome II](./problems/leetcode-680.md)\
 [Leetcode 1249. Minimum Remove to Make Valid Parentheses](./problems/leetcode-1249.md)
 
@@ -88,6 +90,7 @@
 [Task Scheduler](./others/task-scheduler.md)
 
 # TODOs
+Lc 273. Integer to English Words
 Ring Buffer
 Directory that can be searched by (prefix + suffix)
 
