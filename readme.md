@@ -7,6 +7,7 @@
 [Leetcode 56. Merge Intervals](./problems/leetcode-56.md)\
 [Leetcode 57. Insert Interval](./problems/leetcode-57.md)\
 [Leetcode 75. Sort Colors](./problems/leetcode-75.md)\
+[Leetcode 88. Merge Sorted Array](./problems/leetcode-88.md)\
 [Leetcode 438. Find All Anagrams in a String](./problems/leetcode-438.md)
 
 ## String
@@ -50,7 +51,8 @@
 [Leetcode 230. Kth Smallest Element in a BST](./problems/leetcode-230.md)\
 [Leetcode 236. Lowest Common Ancestor of a Binary Tree](./problems/leetcode-236.md)\
 [Leetcode 314. Binary Tree Vertical Order Traversal](./problems/leetcode-314.md)\
-[Leetcode 1110. Delete Nodes And Return Forest](./problems/leetcode-1110.md)
+[Leetcode 1110. Delete Nodes And Return Forest](./problems/leetcode-1110.md)\
+[Leetcode 1650. Lowest Common Ancestor of a Binary Tree III](./problems/leetcode-1650.md)
 
 ## Matrix
 [Leetcode 54. Spiral Matrix](./problems/leetcode-54.md)
@@ -99,6 +101,7 @@
 [Leetcode 33. Search in Rotated Sorted Array](./problems/leetcode-33.md)\
 [Leetcode 199. Binary Tree Right Side View](./problems/leetcode-199.md)\
 [Leetcode 278. First Bad Version](./problems/leetcode-278.md)\
+[Leetcode 528. Random Pick with Weight](./problems/leetcode-528.md)\
 [Leetcode 704: Binary Search](./problems/leetcode-704.md)
 
 ## Quick Slow Pointer
