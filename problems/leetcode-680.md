@@ -1,40 +1,40 @@
 ---
-date:   2024-07-31
+date:   2024-08-03
 ---
 
-# Leetcode 50. Pow(x, n)
+# Leetcode 680. Valid Palindrome II
 
-Implement pow(x, n), which calculates x raised to the power n (i.e., xn).
+Given a string s, return true if the s can be palindrome after deleting at most one character from it.
 
-## Divide and Conquer
-Transition pow(x, n) to the problem of pow(x, n/2) recursively.
-
-Needs to pay attention to the negative case, -3 / 2 = -1.
+## Recursion
+Have a delete quota, and use recursion to cover both cases.
 
 ## Java Code
 <pre>
 <code>
 class Solution {
-    public double myPow(double x, int n) {
-        if (n == 0) {
-            return 1;
-        } else if (n == 1) {
-            return x;
-        } else if (n == -1) {
-            return 1.0 / x;
+    public boolean valid(String s, int l, int r, int deleteQuota) {
+        if (l >= r) {
+            return true;
         }
-        if (n % 2 == 1) {
-            double tmp = myPow(x, n/2);
-            if (n > 0) {
-                return x * tmp * tmp;
-            } else {
-                // e.g -3 / 2 = -1, mod 1.
-                return 1/x * tmp * tmp;
-            }
-        } else {
-            double tmp = myPow(x, n/2);
-            return tmp * tmp;
+        if (s.charAt(l) == s.charAt(r)) {
+            return valid(s, l+1, r-1, deleteQuota);
         }
+        if (deleteQuota == 0) {
+            return false;
+        }
+        --deleteQuota;
+        if (valid(s, l+1, r, deleteQuota)) {
+                return true;
+        }
+        if (valid(s, l, r-1, deleteQuota)) {
+                return true;
+        }
+        return false;
+        
+    }
+    public boolean validPalindrome(String s) {
+        return valid(s, 0, s.length()-1, 1);
     }
 }
 </code>

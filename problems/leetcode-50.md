@@ -1,44 +1,40 @@
 ---
-date:   2024-07-30
+date:   2024-07-31
 ---
 
-# Leetcode 49. Group Anagrams
+# Leetcode 50. Pow(x, n)
 
-Given an array of strings strs, group the anagrams together. You can return the answer in any order.
+Implement pow(x, n), which calculates x raised to the power n (i.e., xn).
 
-An Anagram is a word or phrase formed by rearranging the letters of a different word or phrase, typically using all the original letters exactly once.
+## Divide and Conquer
+Transition pow(x, n) to the problem of pow(x, n/2) recursively.
 
-## Sort each word
-Like brute force, sort each word based on letter sequence. But the output requires to be the original word. So, we'd keep the original input unchanged, and each str has an index. 
-Use a map from "ordered string" -> indexes to group the words.
+Needs to pay attention to the negative case, -3 / 2 = -1.
 
 ## Java Code
 <pre>
 <code>
 class Solution {
-    public String convert(String str) {
-        char[] array = str.toCharArray();
-        Arrays.sort(array);
-        return new String(array);
-    }
-    public List<List<String>> groupAnagrams(String[] strs) {
-        HashMap<String, List<Integer>> leaderIndexes = new HashMap<>();
-        for (int i = 0; i < strs.length; ++i) {
-            String leader = convert(strs[i]);
-            if (!leaderIndexes.containsKey(leader)) {
-                leaderIndexes.put(leader, new LinkedList<Integer>());
-            }
-            leaderIndexes.get(leader).add(i);
+    public double myPow(double x, int n) {
+        if (n == 0) {
+            return 1;
+        } else if (n == 1) {
+            return x;
+        } else if (n == -1) {
+            return 1.0 / x;
         }
-        List<List<String>> outputs = new LinkedList<>();
-        leaderIndexes.forEach((leader, indexes) -> {
-            List<String> output = new LinkedList<>();
-            for (int index : indexes) {
-                output.add(strs[index]);
+        if (n % 2 == 1) {
+            double tmp = myPow(x, n/2);
+            if (n > 0) {
+                return x * tmp * tmp;
+            } else {
+                // e.g -3 / 2 = -1, mod 1.
+                return 1/x * tmp * tmp;
             }
-            outputs.add(output);
-        });
-        return outputs;
+        } else {
+            double tmp = myPow(x, n/2);
+            return tmp * tmp;
+        }
     }
 }
 </code>

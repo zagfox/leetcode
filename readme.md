@@ -17,11 +17,12 @@
 [Leetcode 67. Add Binary](./problems/leetcode-67.md)\
 [Leetcode 125. Valid Palindrome](./problems/leetcode-125.md)\
 [Leetcode 165. Compare Version Numbers](./problems/leetcode-165.md)\
+[Leetcode 408. Valid Word Abbreviation](./problems/leetcode-408.md)\
 [Leetcode 680. Valid Palindrome II](./problems/leetcode-680.md)\
 [Leetcode 1249. Minimum Remove to Make Valid Parentheses](./problems/leetcode-1249.md)
 
 ## Linked List
-[Leetcode 206. Reverse Linked List](./problems/leetcode-206.md)\
+[Leetcode 206. Reverse Linked List](./problems/leetcode-206.md)
 
 ## HashMap
 [Leetcode 242. Valid Anagram](./problems/leetcode-242.md)\
@@ -74,7 +75,8 @@
 [Leetcode 621. Task Scheduler](./problems/leetcode-621.md)
 
 ## Divide and Conquer
-[Leetcode 50. Pow(x, n)](./problems/leetcode-50.md)
+[Leetcode 50. Pow(x, n)](./problems/leetcode-50.md)\
+[Leetcode 215. Kth Largest Element in an Array](./problems/leetcode-215.md)
 
 ## Recursion
 [Leetcode 105. Construct Binary Tree from Preorder and Inorder Traversal](./problems/leetcode-105.md)\
@@ -110,7 +112,7 @@
 [Task Scheduler](./others/task-scheduler.md)
 
 # TODOs
-Lc 273. Integer to English Words
-Ring Buffer
+Lc 273. Integer to English Words\
+Ring Buffer\
 Directory that can be searched by (prefix + suffix)
 
