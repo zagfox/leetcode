@@ -18,37 +18,40 @@ Use a max heap, to store topK. If number of items exceeds K, remove max ones. In
 <pre>
 <code>
 class Solution {
-    class Point {
-        private int x, y;
+    public class Point {
+        public int x;
+        public int y;
         Point(int x, int y) {
             this.x = x;
             this.y = y;
         }
-        public int zeroSquare() {
-            return x*x + y*y;
-        }
-    }
-    class PointComparator implements Comparator<Point> {
-        // makes the heap root, to be max zeroSquare.
-        public int compare(Point a, Point b) {
-            return -1 * Integer.compare(a.zeroSquare(), b.zeroSquare());
+        public double distance() {
+            return Math.sqrt(x*x + y*y);
         }
     }
     public int[][] kClosest(int[][] points, int k) {
-        PriorityQueue<Point> topK = new PriorityQueue<>(k, new PointComparator());
+        PriorityQueue<Point> heap = new PriorityQueue<>(new Comparator<Point>() {
+            public int compare(Point a, Point b) {
+                // Default creates a min heap, it needs to create a maxheap
+                return -Double.compare(a.distance(), b.distance());
+            }
+        });
         for (int[] point : points) {
-            topK.add(new Point(point[0], point[1]));
-            if (topK.size() > k) {
-                topK.poll();
+            Point p = new Point(point[0], point[1]);
+            heap.add(p);
+            if (heap.size() > k) {
+                heap.poll();
             }
         }
-        Point[] pointOutput = topK.toArray(new Point[topK.size()]);
-        int[][] output = new int[k][2];
-        for (int i = 0; i < k; ++i) {
-            output[i][0] = pointOutput[i].x;
-            output[i][1] = pointOutput[i].y;
+        int[][] outputs = new int[k][2];
+        int id = 0;
+        while (!heap.isEmpty()) {
+            Point p = heap.poll();
+            outputs[id][0] = p.x;
+            outputs[id][1] = p.y;
+            ++id;
         }
-        return output;
+        return outputs;
     }
 }
 </code>

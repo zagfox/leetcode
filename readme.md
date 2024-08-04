@@ -19,10 +19,12 @@
 [Leetcode 125. Valid Palindrome](./problems/leetcode-125.md)\
 [Leetcode 165. Compare Version Numbers](./problems/leetcode-165.md)\
 [Leetcode 408. Valid Word Abbreviation](./problems/leetcode-408.md)\
+[Leetcode 443. String Compression](./problems/leetcode-443.md)\
 [Leetcode 680. Valid Palindrome II](./problems/leetcode-680.md)\
 [Leetcode 1249. Minimum Remove to Make Valid Parentheses](./problems/leetcode-1249.md)
 
 ## Linked List
+[Leetcode 138. Copy List with Random Pointer](./problems/leetcode-138.md)\
 [Leetcode 206. Reverse Linked List](./problems/leetcode-206.md)
 
 ## HashMap
@@ -62,7 +64,8 @@
 [Leetcode 200. Number of Islands](./problems/leetcode-200.md)\
 [Leetcode 542. 01 Matrix](./problems/leetcode-542.md)\
 [Leetcode 733: Flood Fill](./problems/leetcode-733.md)\
-[Leetcode 994. Rotting Oranges](./problems/leetcode-994.md)
+[Leetcode 994. Rotting Oranges](./problems/leetcode-994.md)\
+[Leetcode 1091. Shortest Path in Binary Matrix](./problems/leetcode-1091.md)
 
 ## Graph
 [Leetcode 310. Minimum Height Trees](./problems/leetcode-310.md)\
@@ -82,6 +85,7 @@
 
 ## Recursion
 [Leetcode 105. Construct Binary Tree from Preorder and Inorder Traversal](./problems/leetcode-105.md)\
+[Leetcode 339. Nested List Weight Sum](./problems/leetcode-339.md)\
 [Leetcode 889. Construct Binary Tree from Preorder and Postorder Traversal](./problems/leetcode-889.md)
 
 ## Back tracking
@@ -107,6 +111,9 @@
 ## Quick Slow Pointer
 [Find array duplicate](./others/find-array-duplicate.md)
 
+## Sliding window
+[Leetcode 1004. Max Consecutive Ones III](./problems/leetcode-1004.md)
+
 ## Union Find
 [Leetcode 721. Accounts Merge](./problems/leetcode-721.md)
 
@@ -116,6 +123,7 @@
 
 # TODOs
 Lc 273. Integer to English Words\
+Lc 1047. Remove All Adjacent Duplicates In String; using stack \
 Ring Buffer\
 Directory that can be searched by (prefix + suffix)
 
