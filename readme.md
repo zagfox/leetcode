@@ -8,6 +8,7 @@
 [Leetcode 57. Insert Interval](./problems/leetcode-57.md)\
 [Leetcode 75. Sort Colors](./problems/leetcode-75.md)\
 [Leetcode 88. Merge Sorted Array](./problems/leetcode-88.md)\
+[Leetcode 169: Majority Element](./problems/leetcode-141.md)\
 [Leetcode 438. Find All Anagrams in a String](./problems/leetcode-438.md)
 
 ## String
@@ -28,6 +29,7 @@
 [Leetcode 206. Reverse Linked List](./problems/leetcode-206.md)
 
 ## HashMap
+[Leetcode 217: Contains Duplicate](./problems/leetcode-217.md)\
 [Leetcode 242. Valid Anagram](./problems/leetcode-242.md)\
 [Leetcode 383. Ransom Note](./problems/leetcode-383.md)\
 [Leetcode 409. Longest Palindrome](./problems/leetcode-409.md)\
@@ -51,6 +53,7 @@
 [Leetcode 110. Balanced Binary Tree](./problems/leetcode-110.md)\
 [Leetcode 226. Invert Binary Tree](./problems/leetcode-226.md)\
 [Leetcode 230. Kth Smallest Element in a BST](./problems/leetcode-230.md)\
+[Leetcode 235: Lowest Common Ancestor of a Binary Search Tree](./problems/leetcode-235.md)\
 [Leetcode 236. Lowest Common Ancestor of a Binary Tree](./problems/leetcode-236.md)\
 [Leetcode 314. Binary Tree Vertical Order Traversal](./problems/leetcode-314.md)\
 [Leetcode 1110. Delete Nodes And Return Forest](./problems/leetcode-1110.md)\
@@ -67,8 +70,10 @@
 [Leetcode 994. Rotting Oranges](./problems/leetcode-994.md)\
 [Leetcode 1091. Shortest Path in Binary Matrix](./problems/leetcode-1091.md)
 
-## Graph
-[Leetcode 310. Minimum Height Trees](./problems/leetcode-310.md)\
+## Tree & Graph
+[Leetcode 133. Clone Graph](./problems/leetcode-133.md)\
+[Leetcode 208. Implement Trie (Prefix Tree)](./problems/leetcode-208.md)\
+[Leetcode 310. Minimum Height Trees](./problems/leetcode-310.md)
 
 ## Topology Sort
 [Leetcode 207. Course Schedule](./problems/leetcode-207.md)
@@ -109,6 +114,7 @@
 [Leetcode 704: Binary Search](./problems/leetcode-704.md)
 
 ## Quick Slow Pointer
+[Leetcode 141: Linked List Cycle](./problems/leetcode-141.md)\
 [Find array duplicate](./others/find-array-duplicate.md)
 
 ## Sliding window
