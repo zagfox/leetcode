@@ -9,7 +9,8 @@
 [Leetcode 75. Sort Colors](./problems/leetcode-75.md)\
 [Leetcode 88. Merge Sorted Array](./problems/leetcode-88.md)\
 [Leetcode 169: Majority Element](./problems/leetcode-141.md)\
-[Leetcode 438. Find All Anagrams in a String](./problems/leetcode-438.md)
+[Leetcode 438. Find All Anagrams in a String](./problems/leetcode-438.md)\
+[Leetcode 2952. Minimum Number of Coins to be Added](./problems/leetcode-2952.md)
 
 ## String
 [Leetcode 3. Longest Substring Without Repeating Characters](./problems/leetcode-3.md)\
@@ -111,7 +112,8 @@
 [Leetcode 199. Binary Tree Right Side View](./problems/leetcode-199.md)\
 [Leetcode 278. First Bad Version](./problems/leetcode-278.md)\
 [Leetcode 528. Random Pick with Weight](./problems/leetcode-528.md)\
-[Leetcode 704: Binary Search](./problems/leetcode-704.md)
+[Leetcode 704: Binary Search](./problems/leetcode-704.md)\
+[Leetcode 875. Koko Eating Bananas](./problems/leetcode-875.md)
 
 ## Quick Slow Pointer
 [Leetcode 141: Linked List Cycle](./problems/leetcode-141.md)\
