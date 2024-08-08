@@ -29,6 +29,8 @@
 [Leetcode 1249. Minimum Remove to Make Valid Parentheses](./problems/leetcode-1249.md)
 
 ## Linked List
+[Leetcode 2. Add Two Numbers](./problems/leetcode-2.md)\
+[Leetcode 23. Merge k Sorted Lists](./problems/leetcode-23.md)\
 [Leetcode 138. Copy List with Random Pointer](./problems/leetcode-138.md)\
 [Leetcode 206. Reverse Linked List](./problems/leetcode-206.md)
 

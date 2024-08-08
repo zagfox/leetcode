@@ -34,7 +34,6 @@ class Solution {
         ++left;
         --right;
         return s.substring(left, right+1);
-
     }
     public String longestPalindrome(String s) {
         if (s.length() == 0) {
@@ -54,3 +53,7 @@ class Solution {
 }
 </code>
 </pre>
+
+## Manacher's Algorithm
+TBD, advanced
+O(N)
