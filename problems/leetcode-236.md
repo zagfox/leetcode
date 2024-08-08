@@ -11,6 +11,10 @@ According to the definition of LCA on Wikipedia: “The lowest common ancestor i
 ## DFS
 DFS traverse the binary tree, dfs returns the number of points(0, 1, 2) found. LCA is the node that two points are found separately at iself, or its left, or its right.
 
+The implementation use clear return value, the # of nodes found. And use global variable to record LCA.
+There are other ways to define the return parameter, the following works, but require some thinking
+https://www.cnblogs.com/grandyang/p/4641968.html
+
 ## DFS Java Code
 <pre>
 <code>

@@ -13,10 +13,41 @@ The final sorted array should not be returned by the function, but instead be st
 ## n-way merge
 Use some extra space, do the N-way merge.
 
-
 ## Java Code
 <pre>
 <code>
-
+class Solution {
+    public void merge(int[] nums1, int m, int[] nums2, int n) {
+        int[] nums1Copy = Arrays.copyOf(nums1, m);
+        int i = 0, j = 0, k = 0;
+        while (i < m || j < n) {
+            if (i >= m) {
+                nums1[k] = nums2[j];
+                ++k;
+                ++j;
+                continue;
+            }
+            if (j >= n) {
+                nums1[k] = nums1Copy[i];
+                ++k;
+                ++i;
+                continue;
+            }
+            if (nums1Copy[i] < nums2[j]) {
+                nums1[k] = nums1Copy[i];
+                ++k;
+                ++i;
+            } else {
+                nums1[k] = nums2[j];
+                ++k;
+                ++j;
+            }
+        }
+        return;
+    }
+}
 </code>
 </pre>
+
+## 2 way merge, without extra space
+Do the copy from back to front.

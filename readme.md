@@ -9,8 +9,11 @@
 [Leetcode 75. Sort Colors](./problems/leetcode-75.md)\
 [Leetcode 88. Merge Sorted Array](./problems/leetcode-88.md)\
 [Leetcode 169: Majority Element](./problems/leetcode-141.md)\
+[Leetcode 238. Product of Array Except Self](./problems/leetcode-238.md)\
 [Leetcode 438. Find All Anagrams in a String](./problems/leetcode-438.md)\
-[Leetcode 2952. Minimum Number of Coins to be Added](./problems/leetcode-2952.md)
+[Leetcode 746. Min Cost Climbing Stairs](./problems/leetcode-746.md)\
+[Leetcode 2952. Minimum Number of Coins to be Added](./problems/leetcode-2952.md)\
+[Leetcode 3016. Minimum Number of Pushes to Type Word II](./problems/leetcode-3016.md)
 
 ## String
 [Leetcode 3. Longest Substring Without Repeating Characters](./problems/leetcode-3.md)\
@@ -37,6 +40,7 @@
 [Leetcode 981. Time Based Key-Value Store](./problems/leetcode-981.md)
 
 ## Heap
+[Leetcode 347. Top K Frequent Elements](./problems/leetcode-347.md)\
 [Leetcode 973. K Closest Points to Origin](./problems/leetcode-973.md)
 
 ## Stack
