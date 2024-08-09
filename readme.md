@@ -4,11 +4,14 @@
 [Leetcode 1. Two Sum](./problems/leetcode-1.md)\
 [Leetcode 15. 3Sum](./problems/leetcode-15.md)\
 [Leetcode 42. Trapping Rain Water](./problems/leetcode-42.md)\
+[Leetcode 55. Jump Game](./problems/leetcode-55.md)\
 [Leetcode 56. Merge Intervals](./problems/leetcode-56.md)\
 [Leetcode 57. Insert Interval](./problems/leetcode-57.md)\
 [Leetcode 75. Sort Colors](./problems/leetcode-75.md)\
 [Leetcode 88. Merge Sorted Array](./problems/leetcode-88.md)\
-[Leetcode 169: Majority Element](./problems/leetcode-141.md)\
+[Leetcode 121. Best Time to Buy and Sell Stock](./problems/leetcode-121.md)\
+[Leetcode 122. Best Time to Buy and Sell Stock II](./problems/leetcode-122.md)\
+[Leetcode 169: Majority Element](./problems/leetcode-169.md)\
 [Leetcode 238. Product of Array Except Self](./problems/leetcode-238.md)\
 [Leetcode 438. Find All Anagrams in a String](./problems/leetcode-438.md)\
 [Leetcode 746. Min Cost Climbing Stairs](./problems/leetcode-746.md)\
@@ -63,6 +66,7 @@
 [Leetcode 235: Lowest Common Ancestor of a Binary Search Tree](./problems/leetcode-235.md)\
 [Leetcode 236. Lowest Common Ancestor of a Binary Tree](./problems/leetcode-236.md)\
 [Leetcode 314. Binary Tree Vertical Order Traversal](./problems/leetcode-314.md)\
+[Leetcode 662. Maximum Width of Binary Tree](./problems/leetcode-662.md)\
 [Leetcode 1110. Delete Nodes And Return Forest](./problems/leetcode-1110.md)\
 [Leetcode 1650. Lowest Common Ancestor of a Binary Tree III](./problems/leetcode-1650.md)
 
@@ -136,6 +140,7 @@
 [Task Scheduler](./others/task-scheduler.md)
 
 # TODOs
+Lc 103. Binary Tree Zigzag Level Order Traversal\
 Lc 273. Integer to English Words\
 Lc 1047. Remove All Adjacent Duplicates In String; using stack \
 Ring Buffer\
