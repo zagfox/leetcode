@@ -12,9 +12,11 @@
 [Leetcode 121. Best Time to Buy and Sell Stock](./problems/leetcode-121.md)\
 [Leetcode 122. Best Time to Buy and Sell Stock II](./problems/leetcode-122.md)\
 [Leetcode 169: Majority Element](./problems/leetcode-169.md)\
+[Leetcode 189. Rotate Array](./problems/leetcode-189.md)\
 [Leetcode 238. Product of Array Except Self](./problems/leetcode-238.md)\
 [Leetcode 438. Find All Anagrams in a String](./problems/leetcode-438.md)\
 [Leetcode 746. Min Cost Climbing Stairs](./problems/leetcode-746.md)\
+[Leetcode 2191. Sort the Jumbled Numbers](./problems/leetcode-2191.md)\
 [Leetcode 2952. Minimum Number of Coins to be Added](./problems/leetcode-2952.md)\
 [Leetcode 3016. Minimum Number of Pushes to Type Word II](./problems/leetcode-3016.md)
 
@@ -115,7 +117,8 @@
 [Leetcode 62. Unique Paths](./problems/leetcode-62.md)\
 [Leetcode 70: Climbing Stairs](./problems/leetcode-70.md)\
 [Leetcode 139. Word Break](./problems/leetcode-139.md)\
-[Leetcode 416. Partition Equal Subset Sum](./problems/leetcode-416.md)
+[Leetcode 416. Partition Equal Subset Sum](./problems/leetcode-416.md)\
+[Leetcode 1105. Filling Bookcase Shelves](./problems/leetcode-1105.md)
 
 ## Binary Search
 [Leetcode 33. Search in Rotated Sorted Array](./problems/leetcode-33.md)\
