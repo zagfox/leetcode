@@ -3,6 +3,7 @@
 ## Array
 [Leetcode 1. Two Sum](./problems/leetcode-1.md)\
 [Leetcode 15. 3Sum](./problems/leetcode-15.md)\
+[Leetcode 36. Valid Sudoku](./problems/leetcode-36.md)\
 [Leetcode 42. Trapping Rain Water](./problems/leetcode-42.md)\
 [Leetcode 55. Jump Game](./problems/leetcode-55.md)\
 [Leetcode 56. Merge Intervals](./problems/leetcode-56.md)\
@@ -16,6 +17,7 @@
 [Leetcode 238. Product of Array Except Self](./problems/leetcode-238.md)\
 [Leetcode 438. Find All Anagrams in a String](./problems/leetcode-438.md)\
 [Leetcode 746. Min Cost Climbing Stairs](./problems/leetcode-746.md)\
+[Leetcode 1395. Count Number of Teams](./problems/leetcode-1395.md)\
 [Leetcode 2191. Sort the Jumbled Numbers](./problems/leetcode-2191.md)\
 [Leetcode 2952. Minimum Number of Coins to be Added](./problems/leetcode-2952.md)\
 [Leetcode 3016. Minimum Number of Pushes to Type Word II](./problems/leetcode-3016.md)
@@ -31,7 +33,11 @@
 [Leetcode 408. Valid Word Abbreviation](./problems/leetcode-408.md)\
 [Leetcode 443. String Compression](./problems/leetcode-443.md)\
 [Leetcode 680. Valid Palindrome II](./problems/leetcode-680.md)\
+[Leetcode 767. Reorganize String](./problems/leetcode-767.md)\
 [Leetcode 1249. Minimum Remove to Make Valid Parentheses](./problems/leetcode-1249.md)
+
+## Regular expression
+[Leetcode 10. Regular Expression Matching](./problems/leetcode-10.md)
 
 ## Linked List
 [Leetcode 2. Add Two Numbers](./problems/leetcode-2.md)\
@@ -121,6 +127,7 @@
 [Leetcode 1105. Filling Bookcase Shelves](./problems/leetcode-1105.md)
 
 ## Binary Search
+[Leetcode 4. Median of Two Sorted Arrays](./problems/leetcode-4.md)\
 [Leetcode 33. Search in Rotated Sorted Array](./problems/leetcode-33.md)\
 [Leetcode 199. Binary Tree Right Side View](./problems/leetcode-199.md)\
 [Leetcode 278. First Bad Version](./problems/leetcode-278.md)\
