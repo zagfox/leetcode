@@ -15,6 +15,7 @@
 [Leetcode 169: Majority Element](./problems/leetcode-169.md)\
 [Leetcode 189. Rotate Array](./problems/leetcode-189.md)\
 [Leetcode 238. Product of Array Except Self](./problems/leetcode-238.md)\
+[Leetcode 283. Move Zeroes](./problems/leetcode-283.md)\
 [Leetcode 438. Find All Anagrams in a String](./problems/leetcode-438.md)\
 [Leetcode 746. Min Cost Climbing Stairs](./problems/leetcode-746.md)\
 [Leetcode 1395. Count Number of Teams](./problems/leetcode-1395.md)\
@@ -59,7 +60,8 @@
 ## Stack
 [Leetcode 150. Evaluate Reverse Polish Notation](./problems/leetcode-150.md)\
 [Leetcode 155. Min Stack](./problems/leetcode-155.md)\
-[Leetcode 232. Implement Queue using Stacks](./problems/leetcode-232.md)
+[Leetcode 232. Implement Queue using Stacks](./problems/leetcode-232.md)\
+[Leetcode 503. Next Greater Element II](./problems/leetcode-503.md)
 
 ## Events handling
 [Covid Infection](./others/covid-infection.md)
@@ -74,6 +76,7 @@
 [Leetcode 235: Lowest Common Ancestor of a Binary Search Tree](./problems/leetcode-235.md)\
 [Leetcode 236. Lowest Common Ancestor of a Binary Tree](./problems/leetcode-236.md)\
 [Leetcode 314. Binary Tree Vertical Order Traversal](./problems/leetcode-314.md)\
+[Leetcode 543: Diameter of Binary Tree](./problems/leetcode-543.md)\
 [Leetcode 662. Maximum Width of Binary Tree](./problems/leetcode-662.md)\
 [Leetcode 1110. Delete Nodes And Return Forest](./problems/leetcode-1110.md)\
 [Leetcode 1650. Lowest Common Ancestor of a Binary Tree III](./problems/leetcode-1650.md)
@@ -91,11 +94,10 @@
 
 ## Tree & Graph
 [Leetcode 133. Clone Graph](./problems/leetcode-133.md)\
+[Leetcode 207. Course Schedule](./problems/leetcode-207.md)\
 [Leetcode 208. Implement Trie (Prefix Tree)](./problems/leetcode-208.md)\
+[Leetcode 210. Course Schedule II](./problems/leetcode-210.md)\
 [Leetcode 310. Minimum Height Trees](./problems/leetcode-310.md)
-
-## Topology Sort
-[Leetcode 207. Course Schedule](./problems/leetcode-207.md)
 
 
 # Algorithm
@@ -123,6 +125,7 @@
 [Leetcode 62. Unique Paths](./problems/leetcode-62.md)\
 [Leetcode 70: Climbing Stairs](./problems/leetcode-70.md)\
 [Leetcode 139. Word Break](./problems/leetcode-139.md)\
+[Leetcode 322. Coin Change](./problems/leetcode-322.md)\
 [Leetcode 416. Partition Equal Subset Sum](./problems/leetcode-416.md)\
 [Leetcode 1105. Filling Bookcase Shelves](./problems/leetcode-1105.md)
 
@@ -137,6 +140,7 @@
 
 ## Quick Slow Pointer
 [Leetcode 141: Linked List Cycle](./problems/leetcode-141.md)\
+[Leetcode 876. Middle of the Linked List](./problems/leetcode-876.md)\
 [Find array duplicate](./others/find-array-duplicate.md)
 
 ## Sliding window
@@ -154,5 +158,5 @@ Lc 103. Binary Tree Zigzag Level Order Traversal\
 Lc 273. Integer to English Words\
 Lc 1047. Remove All Adjacent Duplicates In String; using stack \
 Ring Buffer\
-Directory that can be searched by (prefix + suffix)
-
+Directory that can be searched by (prefix + suffix)\
+Graph shrink, shrink nodes that are singlely connected, a-b-c, becames abc. Input is list of edges.

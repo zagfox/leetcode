@@ -6,10 +6,7 @@ date:   2024-08-07
 
 Given an integer array nums and an integer k, return the k most frequent elements. You may return the answer in any order.
 
-## Sorting
-Sort and then find out top unique numbers.
-
-# Priority heap
+## Priority heap
 Count number's frequency, put it in a minHeap, only keep k numbers in the heap.
 
 Complexity: O(N * log(k))
@@ -54,3 +51,6 @@ class Solution {
 }
 </code>
 </pre>
+
+## TreeMap
+After counting frequency, using frequency as key, number as value. 
